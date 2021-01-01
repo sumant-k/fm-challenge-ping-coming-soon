@@ -84,13 +84,6 @@ button[type="submit"]:focus {
   background-color: var(--ping--primary-blue);
   color: white;
 }
-.ping_validation__label {
-  display: none;
-  color: red;
-}
-.ping__form-control input:invalid + label {
-  display: block;
-}
 .attribution {
   margin-top: 5rem;
 }

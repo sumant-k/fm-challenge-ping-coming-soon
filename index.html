@@ -32,23 +32,25 @@
             <p>Subscribe and get notified</p>
           </div>
 
-          <div class="ping__form d-flex ">
+          <form
+            id="pingForm"
+            onsubmit="onFormSubmit(event)"
+            class="text-center ping__form d-flex"
+          >
             <div class="ping__form-control">
               <input
+                id="userEmail"
                 class="ping-box-shadow"
                 type="email"
                 placeholder="Your email address..."
               />
-              <label class="ping_validation__label"
-                >Please enter the email</label
-              >
             </div>
             <div class="ping__form-control">
-              <button class=" btn ping-box-shadow" type="submit">
+              <button class="btn ping-box-shadow" type="submit">
                 Notify Me
               </button>
             </div>
-          </div>
+          </form>
         </div>
 
         <div class="ping__dashboard text-center">
